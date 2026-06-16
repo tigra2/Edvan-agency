@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
+    background-image: url(images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: blue;
+    position: sticky;
+    
+}
+.logo{
+    margin-left: 2px;
+    word-spacing: normal;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-links{
+    list-style:none;
+    gap:20px;
+    display: flex;
+    margin-right:15px ;
+}
+.nav-links a{
+    color:azure;
+    text-decoration:none;
+    font-size:1rem;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    min-height: 40px;
+}
+.hero-content{
+    flex: 1;
+}
+.hero-content h1{
+    color: black;
+    font-size: 45px;
+    margin-bottom: 60px;
+}
+
+.hero-content h1 span{
+    color: rgba(57, 57, 129, 0.466);
+    font-size: 50px;
+}
+
+.hero-content p{
+    color: black;
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+button{
+    display: inline-block;
+    background-color:#00708f;
+    color: #fff;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: azure;
+    color: black;
+    border-color: #00708f;
+}
+.hero-image{
+    flex: 1;
+    text-align: center;
+}
+.hero-image img{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 5px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 2);
+}
